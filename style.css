@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 375px;
+  height: 375px;
+}
+
+.board div {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  border: 1px #ccc dotted;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.board div:hover {
+  background-color: #ccc;
+}
+
+.totals {
+  font-size: 5em;
+  font-family: 'sans-serif';
+  margin-left: 50px;
+}
+
+#blue-total {
+  color: deepskyblue;
+}
+
+#green-total {
+  color: darkseagreen;
+}
+
+#invisible-total {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div.blue {
+  background-color: deepskyblue;
+}
+
+div.blue:hover {
+  background-color: cornflowerblue;
+}
+
+div.green {
+  background-color: darkseagreen;
+}
+
+div.green:hover {
+  background-color: lightgreen;
+}
+
+/* Sometimes display: none would be appropriate here. However, because we want the dots
+ * to stay in position and take up space, we turn off colour and border instead
+ */
+div.invisible, div.invisible:hover {
+  background-color: white;
+  border: none;
+}
