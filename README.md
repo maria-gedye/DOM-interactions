@@ -22,9 +22,9 @@ Reload the page in your browser and test the changes. If all goes well, when you
 
 7. Add an event listener for your `hide` function to bindEventListeners. Use the 'dblclick' event. Reload in the browser and test it out. A double-click should make dots disappear, and they should reappear with a second double-click in the same place.
 
-9. Take a look at the `displayTotals` function. It is passed an object called `totals` that contains the number of each colour of dot. You're going to need to update the HTML for each display counter to match these numbers. Each display counter has an id named with the colour followed by "-total" (for example, the counter for blue has the id `blue-total`)\
+8. Take a look at the `displayTotals` function. It is passed an object called `totals` that contains the number of each colour of dot. You're going to need to update the HTML for each display counter to match these numbers. Each display counter has an id named with the colour followed by "-total" (for example, the counter for blue has the id `blue-total`)\
 Access the HTML element (using a tool such as `document.getElementById`) and update the inner HTML to match the total count for that colour.
  
-10. Repeat that for all 'blue', 'green' and 'invisible' classes. Reload the browser periodically to see if your changes are working. If they are, the counts to the right of the board should start going up!
+9. Repeat that for all 'blue', 'green' and 'invisible' classes. Reload the browser periodically to see if your changes are working. If they are, the counts to the right of the board should start going up!
 
 When you're done, make sure you stage, commit, and push your work back to GitHub.
